@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.app__btn_green {
+  @apply bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-500 border border-emerald-600 font-bold px-2 py-1 text-xs text-white rounded-sm;
+}
+.app__form_field_container {
+  @apply grid grid-cols-1 gap-4 mb-4;
+}
+.app__label_standard {
+  @apply text-gray-600 font-medium text-sm mb-1;
+}
+.app__label_value {
+  @apply text-gray-600 font-bold text-sm mb-1;
+}
